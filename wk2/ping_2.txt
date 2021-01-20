@@ -1,0 +1,12 @@
+$ ping georgebrown.ca
+
+Pinging georgebrown.ca [99.79.139.11] with 32 bytes of data:
+Reply from 99.79.139.11: bytes=32 time=216ms TTL=43
+Reply from 99.79.139.11: bytes=32 time=215ms TTL=43
+Reply from 99.79.139.11: bytes=32 time=215ms TTL=43
+Reply from 99.79.139.11: bytes=32 time=213ms TTL=43
+
+Ping statistics for 99.79.139.11:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 213ms, Maximum = 216ms, Average = 214ms

@@ -1,0 +1,7 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute www.medium.com
+traceroute to www.medium.com (104.17.31.52), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.46 (10.78.4.46)  1.524 ms 10.78.4.34 (10.78.4.34)  0.953 ms 10.78.4.38 (10.78.4.38)  1.011 ms
+ 3  138.197.249.86 (138.197.249.86)  1.238 ms  1.223 ms 138.197.249.82 (138.197.249.82)  1.059 ms
+ 4  138.197.249.71 (138.197.249.71)  1.249 ms cloudflare.ip4.torontointernetxchange.net (206.108.34.208)  1.815 ms 138.197.249.71 (138.197.249.71)  1.813 ms
+ 5  cloudflare.ip4.torontointernetxchange.net (206.108.34.208)  1.786 ms 104.17.31.52 (104.17.31.52)  1.329 ms  1.343 ms

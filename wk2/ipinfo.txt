@@ -1,0 +1,14 @@
+1. www.bestbuy.com
+ -104.76.100.220
+
+2. www.facebook.com
+ -157.240.0.35
+
+3. www.twitter.com
+ -104.244.42.65
+
+4. www.georgebrown.ca
+ -99.79.139.11
+
+5. www.zdnet.com
+ -107.178.248.185

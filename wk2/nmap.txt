@@ -1,0 +1,52 @@
+1. nmap www.techcrunch.com
+-root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap www.techcrunch.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-20 06:49 UTC
+Nmap scan report for www.techcrunch.com (152.195.50.33)
+Host is up (0.011s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1119/tcp closed bnetgame
+1935/tcp closed rtmp
+
+Nmap done: 1 IP address (1 host up) scanned in 15.16 seconds
+
+2. nmap -p 80 www.coursera.com
+-root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 80 www.coursera.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-20 06:58 UTC
+Nmap scan report for www.coursera.com (34.197.11.97)
+Host is up (0.023s latency).
+Other addresses for www.coursera.com (not scanned): 54.205.135.98
+rDNS record for 34.197.11.97: ec2-34-197-11-97.compute-1.amazonaws.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.15 seconds
+
+3. nmap -p 10-300 www.costco.com
+-root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 10-300 www.costco.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-20 07:00 UTC
+Nmap scan report for www.costco.com (184.86.45.82)
+Host is up (0.0011s latency).
+rDNS record for 184.86.45.82: a184-86-45-82.deploy.static.akamaitechnologies.com
+Not shown: 290 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 13.41 seconds
+
+
+4. nmap -F www.walmart.com
+-root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F www.walmart.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-20 07:01 UTC
+Nmap scan report for www.walmart.com (72.247.168.145)
+Host is up (0.00089s latency).
+rDNS record for 72.247.168.145: a72-247-168-145.deploy.static.akamaitechnologies.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 13.13 seconds
