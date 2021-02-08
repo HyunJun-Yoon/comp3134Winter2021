@@ -1,0 +1,11 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:09:50.863230 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1739922355:1739922463, ack 2437515417, win 501, length 108
+21:09:50.863292 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 108:144, ack 1, win 501, length 36
+21:09:50.863347 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 144:252, ack 1, win 501, length 108
+21:09:50.863388 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 252:288, ack 1, win 501, length 36
+21:09:50.863750 IP 159.203.9.125.42773 > dns.google.domain: 13048+ PTR? 50.25.52.64.in-addr.arpa. (42)
+5 packets captured
+22 packets received by filter
+0 packets dropped by kernel

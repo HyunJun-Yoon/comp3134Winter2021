@@ -1,0 +1,11 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:08:32.240672 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1739859007:1739859115, ack 2437514337, win 501, length 108
+21:08:32.240733 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 108:144, ack 1, win 501, length 36
+21:08:32.240805 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 144:252, ack 1, win 501, length 108
+21:08:32.240874 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 252:288, ack 1, win 501, length 36
+21:08:32.241252 IP 159.203.9.125.35301 > dns.google.domain: 17664+ PTR? 50.25.52.64.in-addr.arpa. (42)
+21:08:32.244495 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 108, win 4139, length 0
+21:08:32.244516 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 252, win 4139, length 0
+21:08:32.249339 IP dns.google.domain > 159.203.9.125.35301: 17664 1/0/0 PTR ip-64-52-25-50.fibre.fibrestream.ca. (91)

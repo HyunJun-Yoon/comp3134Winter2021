@@ -1,0 +1,22 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:17:37.875510 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1773405147:1773405255, ack 2437539689, win 501, length 108
+        0x0000:  fe00 0000 0101 da74 2e79 db9a 0800 4510  .......t.y....E.
+        0x0010:  0094 4b8d 4000 4006 ec18 9fcb 097d 4034  ..K.@.@......}@4
+        0x0020:  1932 0016 f5fc 69b4 03db 9149 e769 5018  .2....i....I.iP.
+        0x0030:  01f5 0335 0000 f4f4 401e 21b3 2bfa c98e  ...5....@.!.+...
+        0x0040:  7dc4 fd6e 6dbd 6431 57fc d8bd 456e 0b4c  }..nm.d1W...En.L
+        0x0050:  da1b 63e6 3ee7 b27a 2bcb e80d c35d fd32  ..c.>..z+....].2
+        0x0060:  6d3b 8c40 dc14 e6dc db27 cd67 fea9 b609  m;.@.....'.g....
+        0x0070:  be1f 8775 deac 3610 a5ab f0c2 4c36 6a8e  ...u..6.....L6j.
+        0x0080:  51bb 3e0b d764 1506 c445 b0d2 1ab0 a644  Q.>..d...E.....D
+        0x0090:  a49f 750c f1d5 5ae3 35eb 9d69 792b 6c17  ..u...Z.5..iy+l.
+        0x00a0:  c340                                     .@
+21:17:37.875573 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 da74 2e79 db9a 0800 4510  .......t.y....E.
+        0x0010:  004c 4b8e 4000 4006 ec5f 9fcb 097d 4034  .LK.@.@.._...}@4
+        0x0020:  1932 0016 f5fc 69b4 0447 9149 e769 5018  .2....i..G.I.iP.
+        0x0030:  01f5 02ed 0000 7743 c6dc 2642 aab2 a4f5  ......wC..&B....
+        0x0040:  176b cecf e53f 61b7 ac3e 8e85 a0bb 3c71  .k...?a..>....<q
+        0x0050:  abbf b00a 8bc3 8dfb e40d                 ..........

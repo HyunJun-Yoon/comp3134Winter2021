@@ -1,0 +1,19 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:12:55.209266 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1760283991:1760284099, ack 2437529141, win 501, length 108
+E....L@.@.[Y..  }@4.2....h..W.I.5P....5...~...DeCe..`v(..6.#....4...dp.....5B`K....sk.......~.@.,....S.2......Z.w~.M%e..@0.H..7K.xZL..g..$n..I.!V_.=.
+21:12:55.209335 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..L.M@.@.[...  }@4.2....h....I.5P.......[j...\O......  ..O..]/.#.../...y.....
+21:12:55.209389 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E....N@.@.[W..  }@4.2....h....I.5P....5..k...?..........M9..<{q2.f.Q......ok..^.s[.....
+..3.].!t....V.....U..kqc._.C..v...[m.4ag.*'.........UeMN)....
+21:12:55.209431 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..L.O@.@.[...  }@4.2....h..S.I.5P.......Y.6    ....Y.....a,...K..>s^./?..c.t`..
+21:12:55.209797 IP 159.203.9.125.54099 > dns.google.domain: 17247+ PTR? 50.25.52.64.in-addr.arpa. (42)
+E..FG.@.@.9U..  }.....S.5.2..C_...........50.25.52.64.in-addr.arpa.....
+21:12:55.212972 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 108, win 4138, length 0
+E..(\.@.{...@4.2..      }.....I.5h...P..* .........
+21:12:55.214315 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 252, win 4137, length 0
+E..(\.@.{...@4.2..      }.....I.5h..SP..) ,........
+21:12:55.218191 IP dns.google.domain > 159.203.9.125.54099: 17247 1/0/0 PTR ip-64-52-25-50.fibre.fibrestream.ca. (91)

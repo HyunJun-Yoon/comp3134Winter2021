@@ -1,0 +1,19 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:23:57.851903 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1777727287:1777727395, ack 2437547925, win 501, length 108
+21:23:57.852008 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 108:144, ack 1, win 501, length 36
+21:23:57.852092 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 144:252, ack 1, win 501, length 108
+21:23:57.852160 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 252:288, ack 1, win 501, length 36
+21:23:57.862438 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 108, win 4137, length 0
+21:23:57.862495 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 252, win 4137, length 0
+21:23:57.878091 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 288:484, ack 1, win 501, length 196
+21:23:57.878212 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 484:520, ack 1, win 501, length 36
+21:23:57.878314 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 520:692, ack 1, win 501, length 172
+21:23:57.878397 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 692:728, ack 1, win 501, length 36
+21:23:57.878481 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 728:900, ack 1, win 501, length 172
+21:23:57.878551 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 900:936, ack 1, win 501, length 36
+21:23:57.878632 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 936:1108, ack 1, win 501, length 172
+21:23:57.878699 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1108:1144, ack 1, win 501, length 36
+21:23:57.878778 IP 159.203.9.125.ssh > ip-64-52-25-50.fibre.fibrestream.ca.62972: Flags [P.], seq 1144:1300, ack 1, win 501, length 156
+21:23:57.891944 IP ip-64-52-25-50.fibre.fibrestream.ca.62972 > 159.203.9.125.ssh: Flags [.], ack 484, win 4136, length 0
