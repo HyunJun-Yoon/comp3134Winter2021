@@ -1,0 +1,7 @@
+Warning:  scandir(hello): failed to open dir: No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+Warning:  scandir(): (errno 2): No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+i accessed to the directory that deos not exist and 
+
+it returns all the files and directories inside the parent directory

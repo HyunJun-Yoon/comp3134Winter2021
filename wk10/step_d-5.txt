@@ -1,0 +1,9 @@
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+
+it returns directory in side of www folder
+attacker can access files and directories that are stored outside the web root folder with path traversal attack.
