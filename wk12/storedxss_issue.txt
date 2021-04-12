@@ -1,0 +1,2 @@
+malicious script can be stored on the target server such as database, comment field by attack.
+It can be retrieved and excuted by request the stored information.

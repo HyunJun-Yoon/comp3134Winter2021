@@ -1,0 +1,4 @@
+1. i typed chocolate and url was changed from https://www.dictionary.com/browse/cybersecurity to https://www.dictionary.com/browse/chocolate
+2. i typed https://www.dictionary.com/browse/cacao and the website shows definitions of cacao.
+3. it says Results for <script>alert(%27hello%27)</script>: and there's nothing.
+4. i typed https://www.dictionary.com/term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E and it says 404 | This page could not be found
