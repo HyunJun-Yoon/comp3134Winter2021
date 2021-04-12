@@ -1,0 +1,10 @@
+       <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+$path=isset($_GET['q']) ? $_GET['q'] : '.';
+$file = basename($path);
+print "<pre>";
+file_exists($file) ? print_r(scandir($file)) : print "File does not exist";
+print "</pre>";
+?>
