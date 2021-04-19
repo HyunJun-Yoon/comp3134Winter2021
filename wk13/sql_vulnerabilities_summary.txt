@@ -1,0 +1,6 @@
+1) Using the page getusers_1.php, type the following value into the form (Ben)
+	- It doesn't return anything because it only returns value if firstname is same and active is 1 Ben's active is 0
+2) Using the page getusers_1.php, type the following value into the form (Ben'-- )
+	- It returns value of the whole rows including the firstname is ben and active is 0
+3) Using the page getusers_1.php, type the following value into the form (Ben’ or 1=1 ) 
+        - with the given value didn't return anything but following value did return all the rows Ben' or '1'='1
